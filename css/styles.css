@@ -45,8 +45,10 @@ body {
 }
 
 .header {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  border: 1px solid var(--secondary-color);
+  border-top: none;
 }
 .header-container {
   display: flex;
@@ -345,6 +347,8 @@ body {
 }
 .examples-title-paragraph {
   margin: 20px 24px;
+  border: 1px solid var(--secondary-color);
+  border-top: none;
 }
 .activ {
   color: var(--blue-color);
