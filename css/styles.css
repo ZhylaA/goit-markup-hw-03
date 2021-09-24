@@ -161,13 +161,18 @@ body {
   background-color: var(--blue-color);
 }
 /* advantage */
-
 .advantage {
-  display: flex;
+  margin-bottom: 94px;
 }
 .advantage-list {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.advantage-item:not(:last-child) {
+  margin-right: 30px;
   justify-content: space-around;
 }
+
 .advantage-title {
   font-weight: bold;
   font-size: 14px;
@@ -194,11 +199,18 @@ body {
   padding-bottom: 94px;
 }
 .team-title {
+  margin-top: 94px;
+  margin-bottom: 50px;
+  width: 264px;
+
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--basic-color);
+}
+.team-list {
+  display: flex;
 }
 
 .team-name {
