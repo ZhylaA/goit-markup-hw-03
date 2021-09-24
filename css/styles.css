@@ -274,6 +274,11 @@ body {
   color: var(--white-color);
 }
 /* portfolio */
+
+.container-portfolio {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
 .portfolio-list {
   display: flex;
   flex-direction: row;
@@ -337,6 +342,9 @@ body {
   font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-color);
+}
+.examples-title-paragraph {
+  margin: 20px 24px;
 }
 .activ {
   color: var(--blue-color);
