@@ -167,10 +167,11 @@ body {
 .advantage-list {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: center;
 }
 .advantage-item:not(:last-child) {
   margin-right: 30px;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .advantage-title {
@@ -185,24 +186,34 @@ body {
   line-height: 1.71;
   color: var(--secondary-color);
 }
-
+/* specialization */
+.specialization {
+  margin-bottom: 94px;
+}
 .specialization-title {
+  padding-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--basic-color);
 }
+.specialization-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.specialization-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* team */
 .team {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 .team-title {
-  margin-top: 94px;
+  justify-content: center;
   margin-bottom: 50px;
-  width: 264px;
-
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -211,9 +222,16 @@ body {
 }
 .team-list {
   display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+}
+.team-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team-name {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -221,18 +239,26 @@ body {
 }
 
 .team-post {
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   color: var(--secondary-color);
 }
+/* footer */
 .footer {
   background: #2f303a;
   color: var(--white-color);
 }
 
 .footer-logo {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 20px;
   color: var(--white-color);
+}
+.address {
+  padding-bottom: 60px;
 }
 .address-link {
   font-style: normal;
@@ -247,6 +273,16 @@ body {
   line-height: 24px;
   color: var(--white-color);
 }
+/* portfolio */
+.portfolio-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+.potfolio-item:not(:last-child) {
+  margin-right: 8px;
+}
 .potfolio-link-btn:focus,
 .potfolio-link-btn:hover {
   color: var(--white-color);
@@ -259,6 +295,7 @@ body {
   text-align: center;
   color: var(--basic-color);
 }
+
 .potfolio-link-btn {
   font-family: Roboto;
   font-style: normal;
@@ -273,6 +310,19 @@ body {
 .btn {
   cursor: pointer;
   border-radius: 4px;
+}
+/* examples */
+
+.examples-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.examples-item {
+  flex-basis: calc(100% / 3-30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .examples-title {

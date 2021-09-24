@@ -22,168 +22,175 @@
   </head>
   <body>
     <header class="header">
-      <nav>
-        <a href="WebStudio" class="logo link">
-          <span class="accent">Web</span>Studio</a
-        >
-        <ul class="header-naw">
-          <li class="header-item">
-            <a class="header-link link activ" href="./index.html">Студия</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="contact-list">
-        <li class="contact-item">
+      <div class="container header-container">
+        <nav class="header-naw">
+          <a href="WebStudio" class="logo link">
+            <span class="accent">Web</span>Studio</a
+          >
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link link activ" href="./index.html">Студия</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-contacts">
           <a href="" class="contact-link link">info@devstudio.com</a>
-        </li>
-        <li class="contact-item">
           <a href="" class="contact-link link">+38 096 111 11 11</a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </header>
     <main>
-      <section>
-        <!--убрать заголовок его нет в фигме-->
-        <h1>Все прортфолио</h1>
-        <ul class="portfolio">
-          <li class="potfolio-link">
-            <button type="button" class="potfolio-link-btn btn">Все</button>
-          </li>
-          <li class="potfolio-link">
-            <button type="button" class="potfolio-link-btn btn">
-              Веб-сайты
-            </button>
-          </li>
-          <li class="potfolio-link">
-            <button type="button" class="potfolio-link-btn btn">
-              Приложения
-            </button>
-          </li>
-          <li class="potfolio-link">
-            <button type="button" class="potfolio-link-btn btn">Дизайн</button>
-          </li>
-          <li class="potfolio-link">
-            <button type="button" class="potfolio-link-btn btn">
-              Маркетинг
-            </button>
-          </li>
-        </ul>
-        <ul class="examples">
-          <li class="examples-item">
-            <a href="" class="examples-item link">
-              <img
-                src="./images/portfolio1.jpg"
-                alt="Технокряк"
-                width="370"
-                height="294"
-              />
-              <h2 class="examples-title">Технокряк</h2>
-              <p class="examples-paragraph">Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="examples-item link">
-              <img
-                src="./images/portfolio2.jpg"
-                alt="Постер New Orlean vs Golden Star"
-                width="370"
-                height="294"
-              />
-              <h2 class="examples-title">Постер New Orlean vs Golden Star</h2>
-              <p class="examples-paragraph">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="examples-item link">
-              <img
-                src="./images/portfolio3.jpg"
-                alt="Ресторан Seafood"
-                width="370"
-                height="294"
-              />
-              <h2 class="examples-title">Ресторан Seafood</h2>
-              <p class="examples-paragraph">Приложение</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="examples-item link">
-              <img
-                src="./images/portfolio4.jpg"
-                alt="Проект Prime"
-                width="370"
-                height="294"
-              />
-              <h2 class="examples-title">Проект Prime</h2>
-              <p class="examples-paragraph">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="examples-item link">
-              <img
-                src="./images/portfolio5.jpg"
-                alt="Проект Boxes"
-                width="370"
-                height="294"
-              />
-              <h2 class="examples-title">Проект Boxes</h2>
-              <p class="examples-paragraph">Приложение</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="examples-item link">
-              <img
-                src="./images/portfolio6.jpg"
-                alt="Inspiration has no Borders"
-                width="370"
-                height="294"
-              />
-              <h2 class="examples-title">Inspiration has no Borders</h2>
-              <p class="examples-paragraph">Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="examples-item link">
-              <img
-                src="./images/portfolio7.jpg"
-                alt="Издание Limited Edition"
-                width="370"
-                height="294"
-              />
-              <h2 class="examples-title">Издание Limited Edition</h2>
-              <p class="examples-paragraph">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="examples-item link">
-              <img
-                src="./images/portfolio8.jpg"
-                alt="Проект LAB"
-                width="370"
-                height="294"
-              />
-              <h2 class="examples-title">Проект LAB</h2>
-              <p class="examples-paragraph">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="examples-item link">
-              <img
-                src="./images/portfolio9.jpg"
-                alt="Growing Business"
-                width="370"
-                height="294"
-              />
-              <h2 class="examples-title">Growing Business</h2>
-              <p class="examples-paragraph">Приложение</p>
-            </a>
-          </li>
-        </ul>
+      <section portfolio>
+        <div class="container">
+          <!--убрать заголовок его нет в фигме-->
+          <h1 style="display: none">Все прортфолио</h1>
+          <ul class="portfolio-list">
+            <li class="potfolio-item">
+              <button type="button" class="potfolio-link-btn btn">Все</button>
+            </li>
+            <li class="potfolio-item">
+              <button type="button" class="potfolio-link-btn btn">
+                Веб-сайты
+              </button>
+            </li>
+            <li class="potfolio-item">
+              <button type="button" class="potfolio-link-btn btn">
+                Приложения
+              </button>
+            </li>
+            <li class="potfolio-item">
+              <button type="button" class="potfolio-link-btn btn">
+                Дизайн
+              </button>
+            </li>
+            <li class="potfolio-item">
+              <button type="button" class="potfolio-link-btn btn">
+                Маркетинг
+              </button>
+            </li>
+          </ul>
+          <div class="examples">
+            <ul class="examples-list">
+              <li class="examples-item">
+                <a href="" class="examples-link link">
+                  <img
+                    src="./images/portfolio1.jpg"
+                    alt="Технокряк"
+                    width="370"
+                    height="294"
+                  />
+                  <h2 class="examples-title">Технокряк</h2>
+                  <p class="examples-paragraph">Веб-сайт</p>
+                </a>
+              </li>
+
+              <li class="examples-item">
+                <a href="" class="examples-link link">
+                  <img
+                    src="./images/portfolio2.jpg"
+                    alt="Постер New Orlean vs Golden Star"
+                    width="370"
+                    height="294"
+                  />
+                  <h2 class="examples-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="examples-paragraph">Дизайн</p>
+                </a>
+              </li>
+              <li class="examples-item">
+                <a href="" class="examples-link link">
+                  <img
+                    src="./images/portfolio3.jpg"
+                    alt="Ресторан Seafood"
+                    width="370"
+                    height="294"
+                  />
+                  <h2 class="examples-title">Ресторан Seafood</h2>
+                  <p class="examples-paragraph">Приложение</p>
+                </a>
+              </li>
+              <li class="examples-item">
+                <a href="" class="examples-link link">
+                  <img
+                    src="./images/portfolio4.jpg"
+                    alt="Проект Prime"
+                    width="370"
+                    height="294"
+                  />
+                  <h2 class="examples-title">Проект Prime</h2>
+                  <p class="examples-paragraph">Маркетинг</p>
+                </a>
+              </li>
+              <li class="examples-item">
+                <a href="" class="examples-link link">
+                  <img
+                    src="./images/portfolio5.jpg"
+                    alt="Проект Boxes"
+                    width="370"
+                    height="294"
+                  />
+                  <h2 class="examples-title">Проект Boxes</h2>
+                  <p class="examples-paragraph">Приложение</p>
+                </a>
+              </li>
+              <li class="examples-item">
+                <a href="" class="examples-link link">
+                  <img
+                    src="./images/portfolio6.jpg"
+                    alt="Inspiration has no Borders"
+                    width="370"
+                    height="294"
+                  />
+                  <h2 class="examples-title">Inspiration has no Borders</h2>
+                  <p class="examples-paragraph">Веб-сайт</p>
+                </a>
+              </li>
+              <li class="examples-item">
+                <a href="" class="examples-link link">
+                  <img
+                    src="./images/portfolio7.jpg"
+                    alt="Издание Limited Edition"
+                    width="370"
+                    height="294"
+                  />
+                  <h2 class="examples-title">Издание Limited Edition</h2>
+                  <p class="examples-paragraph">Дизайн</p>
+                </a>
+              </li>
+              <li class="examples-item">
+                <a href="" class="examples-link link">
+                  <img
+                    src="./images/portfolio8.jpg"
+                    alt="Проект LAB"
+                    width="370"
+                    height="294"
+                  />
+                  <h2 class="examples-title">Проект LAB</h2>
+                  <p class="examples-paragraph">Маркетинг</p>
+                </a>
+              </li>
+              <li class="examples-item">
+                <a href="" class="examples-link link">
+                  <img
+                    src="./images/portfolio9.jpg"
+                    alt="Growing Business"
+                    width="370"
+                    height="294"
+                  />
+                  <h2 class="examples-title">Growing Business</h2>
+                  <p class="examples-paragraph">Приложение</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="footer">
