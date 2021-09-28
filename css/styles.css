@@ -47,12 +47,12 @@ body {
 .header {
   border: 1px solid #eeeeee;
   border-top: none;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .header-contacts {
@@ -135,6 +135,7 @@ body {
 }
 .title-heading {
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
@@ -158,8 +159,9 @@ body {
   background-color: var(--blue-color);
 }
 /* advantage */
-.advantage-container {
-  padding: 94px 0;
+
+.advantage {
+  padding: 94px;
 }
 .advantage-list {
   display: flex;
@@ -176,6 +178,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .advantage-description {
@@ -224,9 +227,12 @@ body {
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
+.team-name-post {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 .team-name {
-  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -235,7 +241,6 @@ body {
 }
 
 .team-post {
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -245,9 +250,8 @@ body {
 .footer {
   background: #2f303a;
   color: var(--white-color);
-}
-.footer-container {
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   display: flex;
@@ -295,7 +299,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .potfolio-item:not(:last-child) {
   margin-right: 8px;
